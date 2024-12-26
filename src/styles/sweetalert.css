@@ -1,0 +1,38 @@
+/* SweetAlert2 RTL Support */
+.rtl-alert {
+  direction: rtl;
+}
+
+/* Override SweetAlert2 default styles for our theme */
+.swal2-popup {
+  font-size: 1.1rem !important;
+  border-radius: 1rem;
+}
+
+.swal2-title {
+  font-size: 1.5rem !important;
+  text-align: center !important;
+}
+
+/* Center align text for both RTL and LTR */
+.swal2-html-container {
+  text-align: center !important;
+}
+
+/* Dark mode support */
+.dark .swal2-popup {
+  background: #1f2937;
+  color: #fff;
+}
+
+.dark .swal2-title {
+  color: #fff;
+}
+
+.dark .swal2-content {
+  color: #e5e7eb;
+}
+
+.dark .swal2-confirm {
+  background: #3b82f6 !important;
+} 
